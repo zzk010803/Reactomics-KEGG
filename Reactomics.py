@@ -5,8 +5,8 @@ from itertools import product
 from collections import Counter
 
 #  2. 读取 HDOM-0 和 HDOM-14 的 FT-ICR-MS 数据
-df_hdom0 = pd.read_excel(r"C:\Users\周智康\Desktop\硕\大论文\第五章\有机质相关\FT-ICR-MS\Reactomics\0-LDOM-0.xlsx")       # 修改为本地路径
-df_hdom14 = pd.read_excel(r"C:\Users\周智康\Desktop\硕\大论文\第五章\有机质相关\FT-ICR-MS\Reactomics\0-LDOM-14.xlsx")         # 修改为本地路径
+df_hdom0 = pd.read_excel(r"0-LDOM-0.xlsx")       # 修改为本地路径
+df_hdom14 = pd.read_excel(r"0-LDOM-14.xlsx")         # 修改为本地路径
 
 #  3. 分子式解析函数（返回元素计数）
 def parse_formula(formula):
