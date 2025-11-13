@@ -1,6 +1,3 @@
-下面是一份你可以直接放到 GitHub 的简单 `README.md`，风格比较简洁、应付审稿人也够用 😄
-（你自己把文件名 / 路径里 HDOM/LDOM 改成通用描述就行）
-
 ````markdown
 # Reactomics PMD Annotation Script
 
@@ -34,16 +31,11 @@ pip install pandas openpyxl
 ````
 
 ## 3. Input Data
-
-The script expects two Excel files with at least one column:
-
-* `sumFormula` – molecular formula strings, e.g. `C10H12O3`, `C15H18O5N1`, etc.
-
 In the example code, the input files are:
 
 ```python
-sample1.xlsx
-sample2.xlsx
+0-HDOM-0.xlsx
+0-HDOM-14.xlsx
 ```
 
 You can change these paths to your own FT-ICR-MS result files.
